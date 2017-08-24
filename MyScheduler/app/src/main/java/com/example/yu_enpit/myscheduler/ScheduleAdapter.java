@@ -54,5 +54,5 @@ public class ScheduleAdapter extends RealmBaseAdapter<Schedule> {
         return new CharSequence[0];
     }
 
-
+//
 }
