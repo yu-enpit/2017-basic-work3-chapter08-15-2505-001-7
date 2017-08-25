@@ -41,6 +41,7 @@ public class ScheduleAdapter extends RealmBaseAdapter<Schedule> {
             viewHolder = (ViewHolder)convertView.getTag();
         }
 
+        //
         Schedule schedule = adapterData.get(position);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
         String formatDate = sdf.format(schedule.getDate());
